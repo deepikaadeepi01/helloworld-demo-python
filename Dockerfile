@@ -2,7 +2,6 @@ FROM python:3.14.2-alpine3.22
 LABEL version="1.0"
 MAINTAINER Deepika
 ENV MY_APP="hello-world-python"
-
 RUN mkdir /app
 WORKDIR /app
 COPY . /app
