@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: helloworld-deployment
+  name: helloworld-demo-deployment
   labels:
     app: helloworld-demo-python
 spec:
